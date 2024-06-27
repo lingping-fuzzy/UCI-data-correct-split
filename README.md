@@ -8,6 +8,12 @@ In the paper [Self Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515
 
 The file **analysis_results.csv** contains a summary of which datasets have these issues, such as class label inconsistencies or too few data samples in certain classes.
 
+### The Whole Dataset
+The entire dataset can be found [here](https://drive.google.com/file/d/18AI01FxMaGcR6onxtG-EE63C1g7IfgtE/view?usp=drive_link).
+
+### Short Data Sample Problem
+The file **problem_datasets.csv** contains information on datasets where some classes/labels have only 2 instances. In such cases, we cannot perform _StratifiedShuffleSplit_ effectively.
+
 ### original data
 The link access the other data and original ones [links](https://github.com/bioinf-jku/SNNs/tree/master/UCI)
 
