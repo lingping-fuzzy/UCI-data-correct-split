@@ -4,27 +4,32 @@
 
 In the paper [Self Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515), some datasets have inconsistencies in the number of classes across training, validation, and test splits. For example, the training dataset may contain six classes, while the test dataset only has five classes, and the validation dataset has four classes. In such cases, the validation metric score cannot accurately predict the test results.
 
-### Summary Information
+### Repository Contents
 
-The file **analysis_results.csv** contains a summary of which datasets have these issues, such as class label inconsistencies or too few data samples in certain classes.
+- **analysis_results.csv**: A summary file listing datasets with issues of 40 datasets.
+- **UCI data correct splits.zip**: A zip file containing the correctly split datasets on 33 datasets.
+- **problem_datasets.csv**: A file listing datasets with an issue of 2 instances in some class/label on 7 datasets
+
 
 ### The Whole Dataset
-The entire dataset can be found [here](https://drive.google.com/file/d/18AI01FxMaGcR6onxtG-EE63C1g7IfgtE/view?usp=drive_link).
+The entire dataset (33 corrected splits + 88 from SNN paper) can be found [here](https://drive.google.com/file/d/18AI01FxMaGcR6onxtG-EE63C1g7IfgtE/view?usp=drive_link).
 
-### Short Data Sample Problem
-The file **problem_datasets.csv** contains information on datasets where some classes/labels have only 2 instances. In such cases, we cannot perform _StratifiedShuffleSplit_ effectively.
-
-### original data
-The link access the other data and original ones [links](https://github.com/bioinf-jku/SNNs/tree/master/UCI)
 
 ### Correct Data Splits
 
 The **UCI data correct splits.zip** file contains the corrected data splits using _StratifiedShuffleSplit_. The organization of these splits is consistent with the paper *Self Normalizing Neural Networks*, allowing you to use the same data loader file to load the data.
 
-### Repository Contents
 
-- **analysis_results.csv**: A summary file listing datasets with issues.
-- **UCI data correct splits.zip**: A zip file containing the correctly split datasets.
+### Datasets with issues Information
+
+The file **analysis_results.csv** summarizes which datasets (40 datasets) have these issues, such as class label inconsistencies or too few data samples in certain classes. (each dataset may have four data splits; the file shows each split problem)
+
+### Short Data Sample Problem
+The file **problem_datasets.csv** contains information on datasets (7 datasets) where some classes/labels have only 2 instances. In such cases, we cannot perform _StratifiedShuffleSplit_ effectively.
+
+### original data
+The link access the other data and original ones [links](https://github.com/bioinf-jku/SNNs/tree/master/UCI)
+
 
 ### Usage
 
