@@ -9,6 +9,8 @@ In the paper [Self Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515
 - **analysis_results.csv**: A summary file listing datasets with issues of 40 datasets.
 - **UCI data correct splits.zip**: A zip file containing the correctly split datasets on 33 datasets.
 - **problem_datasets.csv**: A file listing datasets with an issue of 2 instances in some class/label on 7 datasets
+- **40 UCI datasets.zip**:  40 UCI datasets are listed in **analysis_result.csv**, where we corrected splits for 33 datasets, and 7 datasets had a low number of instances issues that could not be fixed by the stratified split.
+
 
 
 ### The Whole Dataset
