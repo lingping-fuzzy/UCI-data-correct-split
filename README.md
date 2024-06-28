@@ -2,7 +2,7 @@
 
 ## Self Normalizing Neural Networks - Data Correct Splits
 
-In the paper [Self Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515), some datasets have inconsistencies in the number of classes across training, validation, and test splits. For example, the training dataset may contain six classes, while the test dataset only has five classes, and the validation dataset has four classes. In such cases, the validation metric score cannot accurately predict the test results.
+In the paper [Self Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515), some datasets have inconsistencies in the number of classes across training, validation, and test splits. For example, the training dataset may contain six classes, while the test dataset only has five classes, and the validation dataset has four classes. In such cases, the validation metric score might not accurately predict the test results.
 
 ### Repository Contents
 
@@ -19,7 +19,7 @@ The entire dataset (33 corrected splits + 88 from SNN paper) can be found [here]
 
 ### Correct Data Splits
 
-The **UCI data correct splits.zip** file contains the corrected data splits using _StratifiedShuffleSplit_. The organization of these splits is consistent with the paper *Self Normalizing Neural Networks*, allowing you to use the same data loader file to load the data.
+The **UCI data correct splits.zip** file contains the corrected data splits using _StratifiedShuffleSplit_. The organization of these splits is consistent with the paper *Self Normalizing Neural Networks*, allowing you to use the same data loader file to load the data. The train/val/test data split ratio is 0.64/0.16/0.2.
 
 
 ### Datasets with issues Information
