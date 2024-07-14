@@ -1,4 +1,4 @@
-dataset,instances,labels_classes,features,mark,train size,vali size,test size
+dataset,instances,labels_classes,features,Remark,train size,vali size,test size
 abalone,4177,3,8,,2503,630,1044
 acute-inflammation,120,2,6,,74,16,30
 acute-nephritis,120,2,6,,73,17,30
