@@ -45,7 +45,8 @@ The link access the other data and original ones [links](https://github.com/bioi
 2. **Load the Data**: Use the same data loader file provided in the *Self Normalizing Neural Networks* paper to load the corrected data splits.
 
 ### Data meta information
-# new split- where the dataset has corrected data splits using _StratifiedShuffleSplit_, then the rest of them are the same as the original paper,
+new split- where the dataset has corrected data splits using _StratifiedShuffleSplit_, then the rest of them are the same as the original paper,
+
 the entire data is in a folder *Entire data*
 
 | dataset                        | instances | labels_classes | features | Remark      | train size | vali size | test size |
