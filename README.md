@@ -11,7 +11,7 @@ In the paper [Self Normalizing Neural Networks](https://arxiv.org/pdf/1706.02515
 - **problem_datasets.csv**: A file listing datasets with an issue of 2 instances in some class/label on 7 datasets
 - **40 UCI datasets.zip**:  40 UCI datasets are listed in **analysis_result.csv**, where we corrected splits for 33 datasets, and 7 datasets had a low number of instances issues that could not be fixed by the stratified split.
 - **EntireData** folder *EntireData* folder contains 121 datasets, divided into part1, part2, part3, and part4. \
-      Or you can download from here-(33 corrected splits + 88 from SNN paper) [here](https://drive.google.com/file/d/1Ra4_ybcJI4O9ppCG0Ad33ZLqTlgC9rLi/view?usp=sharing).
+      Or you can download from here-(33 corrected splits + 88 from SNN paper) [data link](https://github.com/lingping-fuzzy/UCI-data-correct-split/tree/main/EntireData) or  [here](https://drive.google.com/file/d/1Ra4_ybcJI4O9ppCG0Ad33ZLqTlgC9rLi/view?usp=sharing).
 
 - **Data meta information** The item Data Meta Information contains details such as the number of instances, feature size, etc., for all datasets. It also specifically indicates which datasets have the new split.
 
@@ -47,7 +47,7 @@ The link access the other data and original ones [links](https://github.com/bioi
 ### Data meta information
 new split- where the dataset has corrected data splits using _StratifiedShuffleSplit_, then the rest of them are the same as the original paper,
 
-the entire data is in a folder *Entire data*
+the entire data is in a folder *Entire data*  [data link](https://github.com/lingping-fuzzy/UCI-data-correct-split/tree/main/EntireData) or  [here](https://drive.google.com/file/d/1Ra4_ybcJI4O9ppCG0Ad33ZLqTlgC9rLi/view?usp=sharing).
 
 | dataset                        | instances | labels_classes | features | Remark      | train size | vali size | test size |
 |--------------------------------|-----------|----------------|----------|-----------|------------|-----------|-----------|
