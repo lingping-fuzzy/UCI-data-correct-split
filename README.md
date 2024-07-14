@@ -45,7 +45,10 @@ The link access the other data and original ones [links](https://github.com/bioi
 2. **Load the Data**: Use the same data loader file provided in the *Self Normalizing Neural Networks* paper to load the corrected data splits.
 
 ### Data meta information
-| dataset                        | instances | labels_classes | features | mark      | train size | vali size | test size |
+# new split- where the dataset has corrected data splits using _StratifiedShuffleSplit_, then the rest of them are the same as the original paper,
+the entire data is in a folder *Entire data*
+
+| dataset                        | instances | labels_classes | features | Remark      | train size | vali size | test size |
 |--------------------------------|-----------|----------------|----------|-----------|------------|-----------|-----------|
 | abalone                        | 4177      | 3              | 8        |           | 2503       | 630       | 1044      |
 | acute-inflammation             | 120       | 2              | 6        |           | 74         | 16        | 30        |
@@ -168,6 +171,7 @@ The link access the other data and original ones [links](https://github.com/bioi
 | wine-quality-white             | 4898      | 7              | 11       | new split | 3134       | 784       | 980       |
 | yeast                          | 1484      | 10             | 8        | new split | 949        | 238       | 297       |
 | zoo                            | 101       | 7              | 16       | new split | 64         | 16        | 21        |
+
 
 ### Example
 
