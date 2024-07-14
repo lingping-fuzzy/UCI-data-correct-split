@@ -48,6 +48,12 @@ To load a dataset, follow the example below:
 ```python
 import numpy as np
 
+# Load validation indices
+val_file = np.loadtxt('path_to_extracted_folder/dataset_name/validation_py.dat', delimiter=',')
+
+# Load test indices
+fold_index = np.loadtxt('path_to_extracted_folder/dataset_name/folds_py.dat', delimiter=',')
+
 
 ### Reference results
 
@@ -99,8 +105,4 @@ import numpy as np
 | plant-margin                   | 0.810156 | 0.382031 | 0.832031 | 0.425         | 0.846094  | 0.788281     | 0.803125 | 0.79375  |
 | pittsburg-bridges-T-OR-D       | 0.845238 | 0.845238 | 0.845238 | 0.809524      | 0.845238  | 0.833333     | 0.857143 | 0.869048 |
 
-# Load validation indices
-val_file = np.loadtxt('path_to_extracted_folder/dataset_name/validation_py.dat', delimiter=',')
-
-# Load test indices
-fold_index = np.loadtxt('path_to_extracted_folder/dataset_name/folds_py.dat', delimiter=',')
+Compared algorithms are from *https://scikit-learn.org/stable/auto_examples/classification/index.html*
