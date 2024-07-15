@@ -188,7 +188,10 @@ val_file = np.loadtxt('path_to_extracted_folder/dataset_name/validation_py.dat',
 fold_index = np.loadtxt('path_to_extracted_folder/dataset_name/folds_py.dat', delimiter=',')
 
 
-### Reference results
+### Reference results - Accuracy
+Compared algorithms are from *https://scikit-learn.org/stable/auto_examples/classification/index.html*
+
+All the results, including f1-weights, recall, and precision, are in the folder *results* as a CSV file.
 
 | Dataset                        | SVM      | adaboost | bagging  | decision_tree | extratree | gaussian_nb | knn      | qda      | randomforest | stack    | voting   | xgboost  |
 |--------------------------------|----------|----------|----------|---------------|-----------|-------------|----------|----------|--------------|----------|----------|----------|
@@ -238,4 +241,4 @@ fold_index = np.loadtxt('path_to_extracted_folder/dataset_name/folds_py.dat', de
 | plant-margin                   | 0.810156 | 0.382031 | 0.832031 | 0.425         | 0.846094  | 0.817188    | 0.786719 | 0.385938 | 0.788281     | 0.803125 | 0.79375  | 0.625    |
 | pittsburg-bridges-T-OR-D       | 0.845238 | 0.845238 | 0.845238 | 0.809524      | 0.845238  | 0.845238    | 0.857143 | 0.869048 | 0.833333     | 0.857143 | 0.869048 | 0.845238 |
 
-Compared algorithms are from *https://scikit-learn.org/stable/auto_examples/classification/index.html*
+
